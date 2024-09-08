@@ -11,6 +11,8 @@
 		F2393CDC2C8DA04C00814BA7 /* framework_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2393CD12C8DA04C00814BA7 /* framework_test.framework */; };
 		F2393CE12C8DA04C00814BA7 /* framework_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393CE02C8DA04C00814BA7 /* framework_testTests.m */; };
 		F2393CE22C8DA04C00814BA7 /* framework_test.h in Headers */ = {isa = PBXBuildFile; fileRef = F2393CD42C8DA04C00814BA7 /* framework_test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2393CED2C8DA21800814BA7 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = F2393CEB2C8DA21800814BA7 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2393CEE2C8DA21800814BA7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393CEC2C8DA21800814BA7 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		F2393CD52C8DA04C00814BA7 /* framework_test.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = framework_test.docc; sourceTree = "<group>"; };
 		F2393CDB2C8DA04C00814BA7 /* framework_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = framework_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2393CE02C8DA04C00814BA7 /* framework_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = framework_testTests.m; sourceTree = "<group>"; };
+		F2393CEB2C8DA21800814BA7 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F2393CEC2C8DA21800814BA7 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				F2393CD42C8DA04C00814BA7 /* framework_test.h */,
+				F2393CEB2C8DA21800814BA7 /* Person.h */,
+				F2393CEC2C8DA21800814BA7 /* Person.m */,
 				F2393CD52C8DA04C00814BA7 /* framework_test.docc */,
 			);
 			path = framework_test;
@@ -93,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2393CE22C8DA04C00814BA7 /* framework_test.h in Headers */,
+				F2393CED2C8DA21800814BA7 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2393CEE2C8DA21800814BA7 /* Person.m in Sources */,
 				F2393CD62C8DA04C00814BA7 /* framework_test.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
